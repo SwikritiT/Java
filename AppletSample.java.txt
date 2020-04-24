@@ -1,0 +1,16 @@
+import java.awt.*;
+public class AppletSample extends Applet{
+	String msg;
+	public void init(){
+	msg+="Inside init() method...";
+	}
+	public void start()
+	{
+	msg+="Inside start() method...";
+	}
+	public void paint(Graphics g){
+	msg+="inside paint() method...";
+	g.drawString(msg,10,30);
+	}
+
+}

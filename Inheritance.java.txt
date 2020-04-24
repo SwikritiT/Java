@@ -1,0 +1,4 @@
+class Inheritance
+{ 
+ String name;
+ int age;            
